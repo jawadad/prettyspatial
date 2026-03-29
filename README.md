@@ -8,4 +8,5 @@ Interactive and pretty visualizations for spatial data using Anndata Objects.
 Clone the repository and install locally:
 
 ```bash
+git clone https://github.com/jawadad/prettyspatial
 pip install -e .
