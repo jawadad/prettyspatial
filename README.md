@@ -1,4 +1,4 @@
-# plotlycells
+# PrettySpatial
 
 Because spatial data is pretty!
 
