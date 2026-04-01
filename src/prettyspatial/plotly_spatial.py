@@ -16,7 +16,7 @@ def plotly_spatial_cells(
     size: float = 2,
     color_map: dict[str, str] | None = None,
     save_html: str | Path | None = None,
-    show: bool = True,
+    show_browser: bool = True,
     **kwargs: Any,
 ):
     """
@@ -89,9 +89,9 @@ def plotly_spatial_cells(
     )
 
     if save_html is not None:
-        fig.write_html(str(save_html))
+        fig.write_html(str(save_html), auto_open=show)
 
-    if show:
-        fig.show()
+    if show_browser:
+        fig.show(renderer="browser")
 
     return fig
