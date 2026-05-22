@@ -40,7 +40,7 @@ def plotly_spatial_cells(
         Optional mapping from phenotype labels to colors.
     save_html
         Optional path to save the interactive figure as HTML.
-    show
+    show_browser
         Whether to display the figure.
     **kwargs
         Additional keyword arguments passed to `plotly.express.scatter`.
@@ -89,7 +89,7 @@ def plotly_spatial_cells(
     )
 
     if save_html is not None:
-        fig.write_html(str(save_html), auto_open=show)
+        fig.write_html(str(save_html), auto_open=show_browser)
 
     if show_browser:
         fig.show(renderer="browser")
