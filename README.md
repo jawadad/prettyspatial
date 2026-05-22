@@ -2,7 +2,7 @@
 
 Because spatial data is pretty!
 
-Interactive and pretty visualizations for spatial data using Anndata Objects.
+Interactive and pretty Plotly visualizations for spatial data using Anndata Objects.
 
 ## Installation
 
