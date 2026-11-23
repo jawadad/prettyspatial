@@ -1,8 +1,7 @@
 # PrettySpatial
 
-Because spatial data is pretty!
 
-Interactive and pretty Plotly visualizations for spatial data using Anndata Objects.
+Interactive HTML plotly spatial plot to visualize Anndata Objects.
 
 ## Installation
 
